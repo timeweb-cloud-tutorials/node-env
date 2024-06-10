@@ -9,3 +9,5 @@ RUN npm install
 ADD . .
 
 CMD node index.js
+
+EXPOSE 3000
